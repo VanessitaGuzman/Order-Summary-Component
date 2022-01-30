@@ -1,0 +1,119 @@
+h1 {
+  margin-top: 25px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-left: -30px;
+}
+
+p {
+  color: hsl(224, 23%, 55%);
+}
+
+.fifty {
+  margin-left: -30px;
+}
+.attribution {
+  margin-top: 50px;
+  font-size: 11px;
+  text-align: center;
+  padding-bottom: 25px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  background-color: hsl(225, 100%, 94%);
+
+  background-image: url("/images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 375px;
+  margin: auto;
+  font-family: "Red Hat Display", sans-serif;
+  padding: 0px;
+}
+
+.illustration {
+  width: 375px;
+  border-radius: 5px 5px 0 0;
+  margin-top: 50px;
+  margin-left: -15px;
+}
+.box {
+  padding: 20px;
+  border-radius: 0 0 5px 5px;
+}
+.row {
+  margin: auto;
+  text-align: center;
+}
+
+.order {
+  background-color: white;
+  padding: 5px 20px 0 20px;
+}
+
+.music-plan {
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 5px;
+  text-align: left;
+  text-decoration: none;
+  vertical-align: middle;
+  padding: 15px 20px 0 20px;
+}
+
+.end {
+  border-radius: 0 0 5px 5px;
+  padding: 0;
+}
+
+.payment-box {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 0 0 5px 5px;
+  text-align: center;
+}
+
+.summary {
+  margin: auto;
+  text-align: center;
+}
+
+.link {
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 0;
+}
+
+.btn {
+  background-color: hsl(245, 75%, 52%);
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn.active,
+.open > .dropdown-toggle.btn {
+  color: #fff;
+  background-color: hsl(224, 23%, 55%);
+  border-color: hsl(224, 23%, 55%);
+}
+
+a {
+  color: hsl(228, 45%, 44%);
+}
+
+.cancel {
+  font-weight: bold;
+  text-decoration: none;
+}
